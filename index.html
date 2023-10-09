@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Details</title>
+    
+</head>
+<body>
+ 
+    <form action="thankyou.html" target="_blank">
+    <fieldset>
+        <legend>Personal Details</legend>
+
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" required  name="fname"><br><br>
+
+    <label for="mname">Middle Name</label><br>
+    <input type="text" id="mname"  name="mname"><br><br>
+
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" required name="lname"><br><br>
+
+    <label for="email">Email</label><br>
+    <input type="email" required id="email" name="email"><br><br>
+
+    <label for="dob">Date Of Birth</label><br>
+    <input type="date" required id="dob" name="dob"><br><br>
+
+    <label for="gem">Gender</label><br>
+
+    <input type="radio" name="gen" id="Male" value="Male">
+    <label for="Male">Male</label>
+    <input type="radio" name="gen" id="Female" value="Female">
+    <label for="Female">Female</label><br><br>
+
+    <label for="cou">Country</label><br>
+    <input list="coun" name="cou" id="cou"><br><br>
+    <datalist id="coun">
+        <option>INDIA</option>
+        <option>SRI LANKA</option>
+        <option>NEPAL</option>
+    </datalist>
+
+    <label>Interests</label><br>
+
+    <input type="checkbox" name="Sports" id="Sports">
+    <label for="Sports">Sports</label>
+    <input type="checkbox" name="Music" id="Music">
+    <label for="Music">Music</label>
+    <input type="checkbox" name="Cooking" id="Cooking">
+    <label for="Cooking">Cooking</label>
+    <input type="checkbox" name="Traveling" id="Traveling">
+    <label for="Traveling">Traveling</label>
+    <input type="checkbox" name="Photography" id="Photography">
+    <label for="Photography">Photography</label>
+    <input type="checkbox" name="Gaming" id="Gaming">
+    <label for="Gaming">Gaming</label>
+    
+</fieldset>
+<input type="submit">
+</form>
+
+
+
+</body>
+</html>
